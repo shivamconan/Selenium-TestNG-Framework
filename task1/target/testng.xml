@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Shivam Training">
+	<test name="Task1">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="task1.Scenario1" />
+		</classes>
+	</test>
+</suite>

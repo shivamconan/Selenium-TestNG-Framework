@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Shivam Training">
+<listeners>
+        <listener class-name="test_utils.AnnotationTransformer"/>
+  </listeners>
+	<test name="Task1">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+		   <class name = "test_utils.Objects"></class>
+			<class name="task1.Scenario1" >
+			<!-- <methods>
+			<exclude name = "test1" />
+			</methods> -->
+			</class>
+        	<class name="task1.Scenario2" >	
+        	</class> 
+			</classes>
+	</test>
+</suite>

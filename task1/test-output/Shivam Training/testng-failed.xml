@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Shivam Training]">
+  <listeners>
+    <listener class-name="test_utils.AnnotationTransformer"/>
+  </listeners>
+  <test name="Task1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="task1.Scenario2">
+        <methods>
+          <include name="test2"/>
+          <include name="initializeObjects"/>
+        </methods>
+      </class> <!-- task1.Scenario2 -->
+    </classes>
+  </test> <!-- Task1(failed) -->
+</suite> <!-- Failed suite [Shivam Training] -->
